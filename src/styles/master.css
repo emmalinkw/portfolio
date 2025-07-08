@@ -259,6 +259,7 @@ h2{
         .employment-full-duration {
             font-size: var(--text-sm);
             color: var(--remark);
+            font-weight: 300;
         }
 
         .job-container {
@@ -276,13 +277,13 @@ h2{
             }
 
             .bullet {
-                background-color: var(--primary-200);
+                background-color: var(--primary-bg);                
             }
 
             .job-duration{
                 padding-left: var(--size-xxs);
                 font-size: var(--text-xs);
-                color: var(--gray-400);
+                color: var(--remark-light);
             }
         }
     }

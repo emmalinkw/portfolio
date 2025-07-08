@@ -29,7 +29,7 @@
     --gray-100: #DAD8D7;
     --gray-200: #CECCCA;
     --gray-300: #B6B2AF;
-    --gray-400: #857F7A;
+    --gray-400: #949290;
     --gray-500: #6A6562;
     --gray-600: #55514E;
     --gray-700: #423F3D;
@@ -39,8 +39,10 @@
     --primary: var(--primary-500);
     --secondary: var(--secondary-500);
     --remark: var(--gray-500);
-
+    --remark-light: var(--gray-400);
     --muted: var(--gray-100);
+    
+    --primary-bg: var(--primary-200);
 
     --panel-background: var(--primary-25);
     --panel-border: var(--primary-100);
@@ -78,8 +80,12 @@
         --panel-color: white;
 
         --link-color: var(--secondary-500);
+    
+        --primary-bg: var(--primary-700);
 
         --remark: var(--gray-400);
+        --remark-light: var(--gray-500);
+
         --muted: var(--gray-700);
     }
 }
