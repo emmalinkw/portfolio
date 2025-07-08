@@ -1,0 +1,36 @@
+[
+  {
+    "company": "Limepage Studio",
+    "start": "2015-07-01",
+    "end": "2019-02-01",
+    "positions": [
+      {
+        "title": "Programmer", 
+        "start": "2015-07-01",
+        "end": "2017-07-01"
+      },
+      {
+        "title": "Senior Programmer", 
+        "start": "2017-07-01",
+        "end": "2019-02-01"
+      }
+    ]
+  },
+  {
+    "company": "Limepage Limited",
+    "start": "2019-03-01",
+    "end": "2025-04-01",
+    "positions": [
+      {
+        "title": "Senior Software Engineer", 
+        "start": "2019-03-01",
+        "end": "2021-03-01"
+      },
+      {
+        "title": "System Analyst", 
+        "start": "2021-03-01",
+        "end": "2025-04-01"
+      }
+    ]
+  }
+]

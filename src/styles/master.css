@@ -31,6 +31,10 @@ html {
         margin: 0;
     }
 
+    p:first-child, p:last-child{
+        margin: 0;
+    }
+
     a {
         text-decoration: none;
         transition: var(--transition-duration) all;
@@ -137,6 +141,10 @@ h2{
     }
 }
 
+.header-container{
+    margin-bottom: var(--size-xs);
+}
+
 .overview-list {
     list-style-type: none;
     padding: 0;
@@ -207,4 +215,75 @@ h2{
 .divider{
     border-bottom: 1px solid var(--panel-border);
     width: 100%;
+}
+
+/* Employment */
+.employment-history {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    .employment-row {
+        position: relative;
+        padding: 0 var(--size-sm);
+        margin: 0 var(--size-xs);
+
+        &::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: var(--size-xs);
+            bottom: var(--size-sm);
+            transform: translateX(-50%);
+            width: 1px;
+            background-color: var(--muted);
+        }
+
+        li::before, .bullet {
+            content: "";
+            position: absolute;
+            left: 0;
+            transform: translateX(-50%) translateY(150%);
+            width: var(--size-xxs);
+            height: var(--size-xxs);
+            border-radius: 50%;
+            z-index: 2;
+            background-color: var(--primary);
+        }
+
+
+        .employment-company {
+            color: var(--primary);
+        }
+
+        .employment-full-duration {
+            font-size: var(--text-sm);
+            color: var(--remark);
+        }
+
+        .job-container {
+            list-style-type: none;
+            padding: 0 var(--size-sm);
+
+            .job-row::before{
+                content: "";
+                position: absolute;
+                width: calc(var(--size-sm) * 1.5);
+                left: 0;
+                transform: translateY(var(--size-xs));
+                height: 1px;
+                background-color: var(--muted);
+            }
+
+            .bullet {
+                background-color: var(--primary-200);
+            }
+
+            .job-duration{
+                padding-left: var(--size-xxs);
+                font-size: var(--text-xs);
+                color: var(--gray-400);
+            }
+        }
+    }
 }

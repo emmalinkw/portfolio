@@ -31,7 +31,9 @@ const {title} = Astro.props;
 <Navigation></Navigation>
 <div class="container flex items-start gap-md">
     <QuickInfo name={Astro.currentLocale=='en'? `Emma Lin K.W.` : `連家慧 (Emma Lin)`} />
-    <slot/>
+    <div class="flex flex-col gap-md">
+        <slot/>
+    </div>
 </div>
 </body>
 </html>

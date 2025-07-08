@@ -37,6 +37,10 @@
     --gray-900: #0a0a0a;
 
     --primary: var(--primary-500);
+    --secondary: var(--secondary-500);
+    --remark: var(--gray-500);
+
+    --muted: var(--gray-100);
 
     --panel-background: var(--primary-25);
     --panel-border: var(--primary-100);
@@ -55,7 +59,7 @@
     --size-2xl: 3rem;
     
     /* Font size: *1.125, base 16*/
-    --text-xs: 0.625rem;  
+    --text-xs: 0.7rem;  
     --text-sm: 0.8125rem; 
     --text-base: 1rem;   
     --text-md: 1.125rem;
@@ -74,6 +78,9 @@
         --panel-color: white;
 
         --link-color: var(--secondary-500);
+
+        --remark: var(--gray-400);
+        --muted: var(--gray-700);
     }
 }
 
