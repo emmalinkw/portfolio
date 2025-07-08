@@ -24,10 +24,13 @@ import { MoonStar, Sun } from "lucide-astro";
 
     /// Show the theme button (dark / light) only according to current theme.
     function themeButtonInit() {
-        let isDarkMode =
-            localStorage.getItem("theme") == "dark" ??
-            (window.matchMedia &&
-                window.matchMedia("(prefers-color-scheme: dark)").matches);
+        let theme = localStorage.getItem("theme");
+        let isDarkMode = window.matchMedia &&
+                window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if(theme != null){
+            isDarkMode = theme == "dark";
+        }
+
         if (isDarkMode) {
             darkModeIcon.style.transform = "rotate(180deg)";
         } else {
