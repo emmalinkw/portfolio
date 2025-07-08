@@ -1,0 +1,21 @@
+---
+import {getEntry} from "astro:content";
+import {render} from "astro:content";
+import MasterLayout from "../../layouts/MasterLayout.astro";
+import Card from "../../components/Card.astro";
+
+const [about] = await Promise.all([
+    getEntry('other', 'about/'+Astro.currentLocale),
+]);
+const {Content: About} = await render(about!);
+---
+<MasterLayout title="Testing">
+    <Card>
+        <div class="header-container">
+            <h2>About me</h2>
+        </div>
+        <div class="prose">
+            <About/>
+        </div>
+    </Card>
+</MasterLayout>

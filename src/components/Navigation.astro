@@ -1,0 +1,27 @@
+---
+// src/components/Navbar.astro
+import { getRelativeLocaleUrl } from "astro:i18n";
+import ThemeToggler from "./ThemeToggler.astro";
+
+---
+
+<nav class="container flex flex-row space-between p-xs px-xs-0">
+    <h1 class="text-md font-semibold">Emma Lin</h1>
+
+    <div class="flex items-center flex-row gap-sm">
+        <div class="flex items-center flex-row gap-xs">
+            <a
+                href={getRelativeLocaleUrl("en")}
+                class={Astro.currentLocale === "en" ? "active" : ""}>EN</a
+            >
+            <div>/</div>
+            <a
+                href={getRelativeLocaleUrl("zh")}
+                class={Astro.currentLocale === "zh" ? "active" : ""}>中</a
+            >
+        </div>
+
+        <ThemeToggler/>
+    
+    </div>
+</nav>

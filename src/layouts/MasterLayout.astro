@@ -1,0 +1,37 @@
+---
+import "../styles/master.css";
+import Navigation from "../components/Navigation.astro";
+import QuickInfo from "../components/Content/QuickInfo.astro";
+
+interface Props {
+    title: string;
+}
+const {title} = Astro.props;
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="generator" content={Astro.generator}/>
+    <title>{title ? `${title} - ` : ''} Emma Lin K.W. - Personal CV Website</title>
+    <script>
+        if (
+            localStorage.theme === 'dark' ||
+            (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+</head>
+<body>
+<Navigation></Navigation>
+<div class="container flex items-start gap-md">
+    <QuickInfo name={Astro.currentLocale=='en'? `Emma Lin K.W.` : `連家慧 (Emma Lin)`} />
+    <slot/>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "icon": {
+      "type": "lucide",
+      "name": "mail"
+    },
+    "text": "emmalinkw@gmail.com",
+    "link": "mailto:emmalinkw@gmail.com"
+  }
+]

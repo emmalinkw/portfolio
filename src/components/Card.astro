@@ -1,0 +1,21 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+
+interface Props extends HTMLAttributes<'div'> {}
+
+const { class: className, ...props } = Astro.props;
+---
+
+<div class="card" class:list={[className]} {...props}>
+  <slot />
+</div>
+<style>
+  .card {
+    height: auto;
+    background-color: var(--panel-background);
+    border: 1px solid var(--panel-border);
+    color: var(--panel-color);
+    padding: var(--size-sm) var(--size-md);
+    overflow: hidden;
+  }
+</style>
