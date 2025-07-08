@@ -29,4 +29,5 @@ const socials = defineCollection({
         link: z.string().url(),
     })
 });
+
 export const collections = { other, quickInfo, socials };
