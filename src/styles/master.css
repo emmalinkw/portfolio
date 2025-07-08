@@ -31,6 +31,10 @@ html {
         margin: 0;
     }
 
+    p:first-child, p:last-child{
+        margin: 0;
+    }
+
     a {
         text-decoration: none;
         transition: var(--transition-duration) all;
@@ -135,6 +139,10 @@ h2{
     @media (min-width: 1400px) {
         max-width: 1320px;
     }
+}
+
+.header-container{
+    margin-bottom: var(--size-xs);
 }
 
 .overview-list {
