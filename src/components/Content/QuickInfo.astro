@@ -18,43 +18,45 @@ const { name } = Astro.props;
 ---
 
 <Card class="quick-info-container">
-    <Image quality={100} width={150} height={150} class="profile-image" 
+    <Image quality={100} width={200} height={200} class="profile-image" 
     src={ProfilePicture}
      alt="An image of Emma" loading='eager' />
-    <h2 class="leading-tight">{name}</h2>
-    <ul class="overview-list">
-        {
-            quickInfo.map((info) => (
-                <li>
-                    <Icon
-                        type={info.data.icon.type}
-                        name={info.data.icon.name as any}
-                        width={24}
-                        height={24}
-                        class="icon"
-                    />
-                    <span>{info.data.text}</span>
-                </li>
-            ))
-        }
-    </ul>
-    <div class="divider"></div>
-    <ul class="overview-list">
-        {
-            socials.map((item) => (
-                <li>
-                    <a href={item.data.link} class="socials-link">
+    <div class="flex flex-col gap-xs">
+        <h2 class="leading-tight">{name}</h2>
+        <ul class="overview-list">
+            {
+                quickInfo.map((info) => (
+                    <li>
                         <Icon
-                            type={item.data.icon.type}
-                            name={item.data.icon.name as any}
+                            type={info.data.icon.type}
+                            name={info.data.icon.name as any}
                             width={24}
                             height={24}
                             class="icon"
                         />
-                        <span>{item.data.text}</span>
-                    </a>
-                </li>
-            ))
-        }
-    </ul>
+                        <span>{info.data.text}</span>
+                    </li>
+                ))
+            }
+        </ul>
+        <div class="divider"></div>
+        <ul class="overview-list">
+            {
+                socials.map((item) => (
+                    <li>
+                        <a href={item.data.link} class="socials-link">
+                            <Icon
+                                type={item.data.icon.type}
+                                name={item.data.icon.name as any}
+                                width={24}
+                                height={24}
+                                class="icon"
+                            />
+                            <span>{item.data.text}</span>
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </div>
 </Card>
