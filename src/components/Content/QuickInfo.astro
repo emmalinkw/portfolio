@@ -1,62 +1,122 @@
 ---
+import type { Skill } from "../../types/Skill";
+
 import Card from "../Card.astro";
-import ProfilePicture from '../../assets/profile_2.jpg';
+import ProfilePicture from "../../assets/profile_2.jpg";
 
 import { getCollection } from "astro:content";
 import Icon from "../Icon.astro";
 import { Image } from "astro:assets";
+import { array } from "astro:schema";
 
 const [quickInfo, socials] = await Promise.all([
     getCollection("quickInfo"),
     getCollection("socials"),
 ]);
 
+const content =
+    Astro.currentLocale == "en"
+        ? {
+              profileAlt: "An image of Emma",
+              language: "Languages",
+              level: [
+                  "Basic Conversation",
+                  "Conversational",
+                  "Smooth Expression",
+                  "Fluent",
+                  "Native",
+              ],
+          }
+        : {
+              profileAlt: "Emma 的個人照片",
+              language: "語言",
+              level: [
+                  "基礎對話",
+                  "日常會話",
+                  "表達順暢",
+                  "談吐流利",
+                  "母語程度",
+              ],
+          };
+
+const languages: Array<Skill> = await import(
+    `../../content/04-skill/01-languages.json`
+).then((m) => m.default);
+
 interface Props {
     name: string;
 }
+
 const { name } = Astro.props;
 ---
 
-<Card class="quick-info-container">
-    <Image quality={100} width={200} height={200} class="profile-image" 
-    src={ProfilePicture}
-     alt="An image of Emma" loading='eager' />
-    <div class="flex flex-col gap-xs">
-        <h2 class="leading-tight">{name}</h2>
-        <ul class="overview-list">
-            {
-                quickInfo.map((info) => (
-                    <li>
-                        <Icon
-                            type={info.data.icon.type}
-                            name={info.data.icon.name as any}
-                            width={24}
-                            height={24}
-                            class="icon"
-                        />
-                        <span>{info.data.text}</span>
-                    </li>
-                ))
-            }
-        </ul>
-        <div class="divider"></div>
-        <ul class="overview-list">
-            {
-                socials.map((item) => (
-                    <li>
-                        <a href={item.data.link} class="socials-link">
+<div class="quick-info-container">
+    <Card>
+        <Image
+            quality={100}
+            width={200}
+            height={200}
+            class="profile-image"
+            src={ProfilePicture}
+            alt={content.profileAlt}
+            loading="eager"
+        />
+        <div class="flex flex-col gap-xs">
+            <h2 class="leading-tight">{name}</h2>
+            <ul class="overview-list">
+                {
+                    quickInfo.map((info) => (
+                        <li>
                             <Icon
-                                type={item.data.icon.type}
-                                name={item.data.icon.name as any}
+                                type={info.data.icon.type}
+                                name={info.data.icon.name as any}
                                 width={24}
                                 height={24}
                                 class="icon"
                             />
-                            <span>{item.data.text}</span>
-                        </a>
-                    </li>
+                            <span>{info.data.text}</span>
+                        </li>
+                    ))
+                }
+            </ul>
+            <div class="divider"></div>
+            <ul class="overview-list">
+                {
+                    socials.map((item) => (
+                        <li>
+                            <a href={item.data.link} class="socials-link">
+                                <Icon
+                                    type={item.data.icon.type}
+                                    name={item.data.icon.name as any}
+                                    width={24}
+                                    height={24}
+                                    class="icon"
+                                />
+                                <span>{item.data.text}</span>
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </Card>
+    <Card class="langauge-container" title={content.language}>
+        <div class="flex flex-col gap-xs">
+            {
+                languages.map((language) => (
+                    <div>
+                        <div>
+                            {language.name}
+                            <span class="text-sm text-remark-light">
+                                — {content.level[language.level - 1]}
+                            </span>
+                        </div>
+                        <div class="level-container">
+                            {Array.from({ length: 6 }).map((_, i)=><div class={i>language.level?'level': 'level fill'}></div>)}
+                        </div>
+                    </div>
                 ))
             }
-        </ul>
-    </div>
-</Card>
+        </div>
+    </Card>
+</div>

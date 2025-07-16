@@ -1,0 +1,11 @@
+[
+  { "name": "PHP", "level": 4 },
+  { "name": "JavaScript", "level": 3 },
+  { "name": "TypeScript", "level": 3 },
+  { "name": "HTML", "level": 4 },
+  { "name": "CSS", "level": 4 },
+  { "name": "SQL", "level": 3 },
+  { "name": "C#", "level": 3 },
+  { "name": "React JS", "level": 3 },
+  { "name": "Python", "level": 2 }
+]

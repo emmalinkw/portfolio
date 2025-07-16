@@ -383,3 +383,8 @@
 .font-black{
     font-weight: 900;
 }
+
+/* Text Color */
+.text-remark-light{
+    color: var(--remark-light);
+}
