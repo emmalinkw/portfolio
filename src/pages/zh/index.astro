@@ -10,19 +10,13 @@ const [about] = await Promise.all([
 ]);
 const {Content: About} = await render(about!);
 ---
-<MasterLayout title="Testing">
-    <Card>
-        <div class="header-container">
-            <h2>關於</h2>
-        </div>
+<MasterLayout>
+    <Card title="關於">
         <div class="prose">
             <About/>
         </div>
     </Card>
-    <Card>
-        <div class="header-container">
-            <h2>職業履歷</h2>
-        </div>
+    <Card title="職業履歷">
         <EmploymentHistory />
     </Card>
 </MasterLayout>

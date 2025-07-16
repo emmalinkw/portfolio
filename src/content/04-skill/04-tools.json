@@ -1,0 +1,10 @@
+[
+  { "name": "Git", "level": 4 },
+  { "name": "GitHub", "level": 3 },
+  { "name": "Docker", "level": 2 },
+  { "name": "Postman", "level": 3 },
+  { "name": "Figma", "level": 4 },
+  { "name": "Blender", "level": 3 },
+  { "name": "3Ds Max", "level": 3 },
+  { "name": "MS Word / Excel / Powerpoint", "level": 4 }
+]
