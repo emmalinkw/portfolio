@@ -148,6 +148,7 @@ h2{
 .header-container{
     margin-bottom: var(--size-xs);
     font-size: var(--text-md);
+    line-height: 1.5;
 }
 
 .overview-list {
