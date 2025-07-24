@@ -7,7 +7,6 @@ import ProfilePicture from "../../assets/profile_2.jpg";
 import { getCollection } from "astro:content";
 import Icon from "../Icon.astro";
 import { Image } from "astro:assets";
-import { array } from "astro:schema";
 
 const [quickInfo, socials] = await Promise.all([
     getCollection("quickInfo"),
