@@ -195,7 +195,7 @@ h2{
     aspect-ratio: 1;
     object-fit: cover; 
     object-position: center bottom;
-    margin-bottom: var(--size-xxs);
+    margin-bottom: var(--size-md);
     max-height: 200px;
     max-width: 200px;
 
