@@ -10,15 +10,9 @@ import ThemeToggler from "./ThemeToggler.astro";
 
     <div class="flex items-center flex-row gap-sm">
         <div class="flex items-center flex-row gap-xs">
-            <a
-                href={getRelativeLocaleUrl("en")}
-                class={Astro.currentLocale === "en" ? "active" : ""}>EN</a
-            >
-            <div>/</div>
-            <a
-                href={getRelativeLocaleUrl("zh")}
-                class={Astro.currentLocale === "zh" ? "active" : ""}>中</a
-            >
+            {Astro.currentLocale === "en" && <a href={getRelativeLocaleUrl("zh")}>中</a>}
+            {Astro.currentLocale === "zh" && <a href={getRelativeLocaleUrl("en")}>EN</a>}
+            
         </div>
 
         <ThemeToggler/>
