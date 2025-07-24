@@ -38,6 +38,7 @@
 
     --primary: var(--primary-500);
     --secondary: var(--secondary-500);
+    --base: var(--gray-900);
     --remark: var(--gray-500);
     --remark-light: var(--gray-400);
     --muted: var(--gray-100);
@@ -71,8 +72,12 @@
     --text-3xl: 1.813rem;
     --text-4xl: 2rem;
 
+    --inverted: white;
+
     &.dark {
-        color: white;
+        --base: var(--gray-50);
+        --inverted: var(--gray-900);
+
         background-color: var(--gray-900);
 
         --panel-background: var(--gray-800);
@@ -176,6 +181,11 @@
         --size-2xl: 5rem;
         /* 80px */
     }
+}
+
+body{
+    padding-bottom: var(--size-lg);
+    color: var(--base);
 }
 
 
@@ -387,4 +397,8 @@
 /* Text Color */
 .text-remark-light{
     color: var(--remark-light);
+}
+
+img{
+    display: block;
 }

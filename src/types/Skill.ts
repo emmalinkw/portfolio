@@ -1,5 +1,6 @@
 export interface Skill {
   name: string;
   level: number;
-  image?: string;
+  icon?: string;
+  url? :string;
 }
