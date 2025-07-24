@@ -15,10 +15,14 @@ const tools: Array<Skill> = await import(
 ).then((m) => m.default);
 
 
+const content =
+    Astro.currentLocale == "en"
+        ? { programmingLanguage: "Languages", framework: "Frameworks", tools: "Tools" }
+        : { programmingLanguage: "語言", framework: "框架", tools: "工具" };
 ---
 
 <div>
-    <SkillList skills={programmingLanguages} title="Programming Languages"/>
-    <SkillList skills={frameworks} title="Frameworks"/>
-    <SkillList skills={tools} title="Tools"/>
+    <SkillList skills={programmingLanguages} title={content.programmingLanguage}/>
+    <SkillList skills={frameworks} title={content.framework}/>
+    <SkillList skills={tools} title={content.tools}/>
 </div>
