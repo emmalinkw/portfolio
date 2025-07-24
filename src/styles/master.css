@@ -341,3 +341,57 @@ h2{
         }
     }
 }
+
+.skill-container{
+    &:not(:last-child){
+        padding-bottom: var(--size-md);
+        border-bottom: var(--border-color);
+    }
+
+
+    .title{
+        display: block;
+        padding-bottom: var(--size-xs);
+    }
+
+    .pills-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--size-xs) var(--size-md);
+    }
+
+    .skill{
+        border: 1px solid var(--panel-border);
+        display: flex;
+        gap: var(--size-xxs);
+        align-items: center;
+        padding: 2px var(--size-xxs);
+        border-radius: 4px;
+        color: var(--remark);
+
+        .name{
+            white-space: nowrap;
+        }
+
+        &:hover{
+            background-color: var(--primary-bg);
+            color: var(--base);
+            
+            filter: none;
+            .icon{
+                filter: 
+                    drop-shadow(1px 0 var(--color))
+                    drop-shadow(-1px 0 var(--color))
+                    drop-shadow(0 1px var(--color))
+                    drop-shadow(0 -1px var(--color));
+            }
+        }
+        
+        .icon{
+            --color: var(--inverted);
+            filter: grayscale();
+        }
+
+    }
+
+}

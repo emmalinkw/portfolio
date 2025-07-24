@@ -1,10 +1,50 @@
 [
-  { "name": "Git", "level": 4 },
-  { "name": "GitHub", "level": 3 },
-  { "name": "Docker", "level": 2 },
-  { "name": "Postman", "level": 3 },
-  { "name": "Figma", "level": 4 },
-  { "name": "Blender", "level": 3 },
-  { "name": "3Ds Max", "level": 3 },
-  { "name": "MS Word / Excel / Powerpoint", "level": 4 }
+  {
+    "name": "Git",
+    "level": 4,
+    "url": "https://git-scm.com/",
+    "icon": "/assets/technologies/git.svg"
+  },
+  {
+    "name": "GitHub",
+    "level": 3,
+    "url": "https://github.com/",
+    "icon": "/assets/technologies/github.svg"
+  },
+  {
+    "name": "Docker",
+    "level": 2,
+    "url": "https://www.docker.com/",
+    "icon": "/assets/technologies/docker.svg"
+  },
+  {
+    "name": "Postman",
+    "level": 3,
+    "url": "https://www.postman.com/",
+    "icon": "/assets/technologies/postman.svg"
+  },
+  {
+    "name": "Figma",
+    "level": 4,
+    "url": "https://www.figma.com/",
+    "icon": "/assets/technologies/figma.svg"
+  },
+  {
+    "name": "Microsoft Office",
+    "level": 4,
+    "url": "https://www.microsoft.com/en-us/microsoft-365",
+    "icon": "/assets/technologies/ms office.svg"
+  },
+  {
+    "name": "Blender",
+    "level": 3,
+    "url": "https://www.blender.org/",
+    "icon": "/assets/technologies/blender.svg"
+  },
+  {
+    "name": "3Ds Max",
+    "level": 3,
+    "url": "https://www.autodesk.com/products/3ds-max/",
+    "icon": "/assets/technologies/3ds max.svg"
+  }
 ]

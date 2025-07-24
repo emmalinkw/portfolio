@@ -1,11 +1,50 @@
 [
-  { "name": "PHP", "level": 4 },
-  { "name": "JavaScript", "level": 3 },
-  { "name": "TypeScript", "level": 3 },
-  { "name": "HTML", "level": 4 },
-  { "name": "CSS", "level": 4 },
-  { "name": "SQL", "level": 3 },
-  { "name": "C#", "level": 3 },
-  { "name": "React JS", "level": 3 },
-  { "name": "Python", "level": 2 }
+  {
+    "name": "PHP",
+    "level": 4,
+    "url": "https://www.php.net/",
+    "icon": "/assets/technologies/php.svg"
+  },
+  {
+    "name": "JavaScript",
+    "level": 3,
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "icon": "/assets/technologies/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "level": 3,
+    "url": "https://www.typescriptlang.org/",
+    "icon": "/assets/technologies/typescript.svg"
+  },
+  {
+    "name": "HTML",
+    "level": 4,
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "icon": "/assets/technologies/html.svg"
+  },
+  {
+    "name": "CSS",
+    "level": 4,
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "icon": "/assets/technologies/css.svg"
+  },
+  {
+    "name": "SQL",
+    "level": 3,
+    "url": "https://www.w3schools.com/sql/",
+    "icon": "/assets/technologies/sql.svg"
+  },
+  {
+    "name": "C#",
+    "level": 3,
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "icon": "/assets/technologies/csharp.svg"
+  },
+  {
+    "name": "React JS",
+    "level": 3,
+    "url": "https://reactjs.org/",
+    "icon": "/assets/technologies/react js.svg"
+  }
 ]

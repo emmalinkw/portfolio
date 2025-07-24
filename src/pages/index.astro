@@ -1,11 +1,11 @@
 ---
 import {getEntry} from "astro:content";
 import {render} from "astro:content";
-import {Debug} from 'astro:components';
 
 import MasterLayout from "../layouts/MasterLayout.astro";
 import Card from "../components/Card.astro";
 import EmploymentHistory from "../components/Content/EmploymentHistory.astro";
+import Technologies from "../components/Content/Technologies.astro";
 
 const [about] = await Promise.all([
     getEntry('other', 'about/' + Astro.currentLocale)
@@ -18,5 +18,8 @@ const {Content: About} = await render(about!);
     </Card>
     <Card title="Employment History">
         <EmploymentHistory />
+    </Card>
+    <Card title="What I Work With">
+        <Technologies />
     </Card>
 </MasterLayout>

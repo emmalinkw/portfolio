@@ -1,0 +1,24 @@
+---
+import type { Skill } from "../../types/Skill";
+import SkillList from "./SkillList.astro";
+
+const programmingLanguages: Array<Skill> = await import(
+    `../../content/04-skill/02-programming_languages.json`
+).then((m) => m.default);
+
+const frameworks: Array<Skill> = await import(
+    `../../content/04-skill/03-frameworks.json`
+).then((m) => m.default);
+
+const tools: Array<Skill> = await import(
+    `../../content/04-skill/04-tools.json`
+).then((m) => m.default);
+
+
+---
+
+<div>
+    <SkillList skills={programmingLanguages} title="Programming Languages"/>
+    <SkillList skills={frameworks} title="Frameworks"/>
+    <SkillList skills={tools} title="Tools"/>
+</div>

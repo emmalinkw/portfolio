@@ -1,0 +1,24 @@
+---
+/** To display a list of skills. Each skill is rendering as a button, redirecting to the official site of the skill on click.
+ * @param title Name of the section
+ * @param className CSS Class to be appended to the outermost container
+ * @param skills Array of `Skill`
+ */
+
+
+import { Image } from "astro:assets";
+import type { Skill } from "../../types/Skill";
+
+const {title, className, skills} = Astro.props;
+---
+<div class="skill-container" class:list={[className]}>
+    <h4 class="title">{title}</h4>
+    <div class="pills-container">
+    {skills.map((skill:Skill) => 
+        <a href={skill.url} class="skill" target="_blank">
+            {skill.icon && <Image class="icon" src={"/portfolio"+skill.icon} alt={skill.name} width="24" height="24"/>}
+            <div class="name">{skill.name}</div>
+        </a>
+    )}
+    </div>
+</div>

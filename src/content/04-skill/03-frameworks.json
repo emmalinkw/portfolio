@@ -1,12 +1,62 @@
 [
-  { "name": "Laravel", "level": 4 },
-  { "name": "Vue.js", "level": 3 },
-  { "name": "Tailwind CSS", "level": 4 },
-  { "name": "Wordpress", "level": 4 },
-  { "name": "Vite", "level": 3 },
-  { "name": "Astro", "level": 2 },
-  { "name": "Flutter", "level": 3 },
-  { "name": "Unity", "level": 3 },
-  { "name": "Phaser", "level": 4 },
-  { "name": "Godot", "level": 2 }
+  {
+    "name": "Laravel",
+    "level": 4,
+    "url": "https://laravel.com/",
+    "icon": "/assets/technologies/laravel.svg"
+  },
+  {
+    "name": "Vue.js",
+    "level": 3,
+    "url": "https://vuejs.org/",
+    "icon": "/assets/technologies/vue.js.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": 4,
+    "url": "https://tailwindcss.com/",
+    "icon": "/assets/technologies/tailwindcss.svg"
+  },
+  {
+    "name": "Wordpress",
+    "level": 4,
+    "url": "https://wordpress.org/",
+    "icon": "/assets/technologies/wordpress.svg"
+  },
+  {
+    "name": "Vite",
+    "level": 3,
+    "url": "https://vitejs.dev/",
+    "icon": "/assets/technologies/vite.svg"
+  },
+  {
+    "name": "Astro",
+    "level": 2,
+    "url": "https://astro.build/",
+    "icon": "/assets/technologies/astro.svg"
+  },
+  {
+    "name": "Flutter",
+    "level": 3,
+    "url": "https://flutter.dev/",
+    "icon": "/assets/technologies/flutter.svg"
+  },
+  {
+    "name": "Unity",
+    "level": 3,
+    "url": "https://unity.com/",
+    "icon": "/assets/technologies/unity.svg"
+  },
+  {
+    "name": "Phaser",
+    "level": 4,
+    "url": "https://phaser.io/",
+    "icon": "/assets/technologies/phaser.png"
+  },
+  {
+    "name": "Godot",
+    "level": 2,
+    "url": "https://godotengine.org/",
+    "icon": "/assets/technologies/godot.svg"
+  }
 ]
