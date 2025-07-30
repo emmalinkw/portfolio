@@ -13,4 +13,4 @@ I'm a software developer with experience in:
 - **Desktop App Development** – Native and hybrid apps using modern frameworks
 - **Game Development** – Gameplay programming and prototyping using **Godot** and **Phaser.js**
 
-My goal is to build thoughtful, maintainable, and elegant solutions across web, mobile, and desktop platforms.
+My goal is to build thoughtful, maintainable, and elegant solutions across web, mobile, and desktop platforms. 
