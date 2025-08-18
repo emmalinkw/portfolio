@@ -1,0 +1,22 @@
+{
+  "title": {
+    "en": "Wah Keung Exchange",
+    "zh": "華強匯款找換"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "我們為華強匯款找換設計並製作官方網站，旨在展示當前店面提供的各種貨幣匯率，為客戶提供便捷的資訊服務。網站提供清晰的聯繫資訊，讓客戶能夠方便地與店面取得聯繫，進行進一步的諮詢或交易安排。"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Tailwind CSS"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ],
+  "url":"https://www.wahkeungltd.com/"
+}

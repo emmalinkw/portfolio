@@ -1,0 +1,75 @@
+---
+import { Image } from "astro:assets";
+import type { Project } from "../../types/Project";
+import type { Language } from "../../types/Language";
+import LinkArrow from "../Icon/LinkArrow.astro";
+
+interface ProjectCardProps {
+    project: Project;
+    lang: Language;
+    projectTypes: Record<string, { en: string; zh: string }>;
+}
+
+const { project, lang, projectTypes } = Astro.props as ProjectCardProps;
+
+const validTypes = project.type?.filter(
+    (type): type is keyof typeof projectTypes => type in projectTypes,
+);
+
+const url = "#";
+---
+
+<div class="project-card">
+    <Image
+            class="cover"
+            src={"/portfolio/assets" + project.coverImage[0]}
+            alt={project.title[lang]}
+            width="300"
+            height="200"
+        />
+    <h3 class="title">{project.title[lang]}</h3>
+
+    <!-- Hide detail page redirection
+    <a href={url} target="_blank" class="cover-container">
+        <Image
+            class="cover"
+            src={"/portfolio/assets" + project.coverImage[0]}
+            alt={project.title[lang]}
+            width="300"
+            height="200"
+        />
+    </a>
+    <a href={url} target="_blank" class="title-row base-color-link">
+        <span class="title">{project.title[lang]}</span>
+        <LinkArrow />
+    </a>
+     -->
+    {
+        validTypes && validTypes.length > 0 && (
+            <div class="list">
+                {validTypes.map((type) => (
+                    <span class="project-type">
+                        <div
+                            class="dot"
+                            style={`background-color: var(--color-project-${type})`}
+                        />
+                        {projectTypes[type][lang]}
+                    </span>
+                ))}
+            </div>
+        )
+    }
+    <div class="abstract">{project.abstract[lang]}</div>
+    
+    {
+        project.technologies && project.technologies.length > 0 && (
+            <div class="list">
+                {project.technologies.map((technology) => (
+                    <span class="technology">
+                        {technology}
+                    </span>
+                ))}
+            </div>
+        )
+    }
+</div>

@@ -5,6 +5,8 @@ import MasterLayout from "../../layouts/MasterLayout.astro";
 import Card from "../../components/Card.astro";
 import EmploymentHistory from "../../components/Content/EmploymentHistory.astro";
 import Technologies from "../../components/Content/Technologies.astro";
+import SelectedProjects from "../../components/Content/SelectedProjects.astro";
+import RightArrow from "../../components/Icon/RightArrow.astro";
 
 const [about] = await Promise.all([
     getEntry('other', 'about/'+Astro.currentLocale),
@@ -22,5 +24,19 @@ const {Content: About} = await render(about!);
     </Card>
     <Card title="What I Work With">
         <Technologies />
+    </Card>
+    <Card>
+        <div class="header-container flex space-between gap-xs flex-row">
+            <h3>Featured Projects</h3>
+            <a href="/portfolio/en/projects" class="btn-view-more-right"
+                >View More <RightArrow size="14"/></a
+            >
+        </div>
+        <SelectedProjects />
+
+        <div style="height: var(--size-md);"></div>
+        <button class="btn-primary" onclick="location.href = '/portfolio/en/projects'">
+            View More <RightArrow size="14"/>
+        </button>
     </Card>
 </MasterLayout>

@@ -8,7 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
     site: "https://emmalinkw.github.io/",
-    base: "portfolio",
+    base: "/portfolio/",
     i18n: {
         locales: ["en", "zh"],
         defaultLocale: "en",

@@ -1,0 +1,20 @@
+{
+  "title":{
+    "en": "3D Bra Pressure Analysing System",
+    "zh": "3D 胸罩壓力分析系統"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "理工研究團體需要一個工具幫助佢們更精準咁分析日常同運動內衣的受力情況。我們根據佢們的需求，開發咗呢 3D 胸罩壓力分析系統，協助研究人員進行研究。",
+      "研究人員只要輸入相應資料，就能獲得内衣分析結果，仲可以匯出結果成 PDF 檔案。"
+    ]
+  },
+  "technologies": [
+    "Godot"
+  ],
+  "images": [
+    "/assets/projects/03-3dbms/01.png",
+    "/assets/projects/03-3dbms/02.png"
+  ]
+}

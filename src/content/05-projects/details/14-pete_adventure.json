@@ -1,0 +1,24 @@
+{
+  "title": {
+    "en": "Pete's Adventure",
+    "zh": "奇異鳥 Pete 的奇妙旅程"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "奇異鳥 Pete 的奇妙旅程是一款橫向平面平台的網頁遊戲，旨在鼓勵玩家以最短時間獲取最多分數，參與抽獎活動，從而達到宣傳效果。",
+      "玩家需要使用方向鍵操縱奇異鳥 Pete，帶領他穿梭於紐西蘭各處的旅遊名勝。途中，玩家需收集散落的金幣並回答與紐西蘭觀光熱點相關的問題，以獲取更高的分數。遊戲背景採用紐西蘭著名旅遊景點，讓玩家在遊玩過程中感受當地絕美風景。遊戲中會經過數個景點，通過回答與紐西蘭觀光熱點相關的問題，增加互動性並讓玩家更了解當地傳統風土人情。",
+      "這不僅增強了紐西蘭航空公司的品牌曝光度，也讓玩家隨著 Pete 的腳步遊覽紐西蘭的迷人風景，體驗到紐西蘭的獨特魅力和文化。"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Phaser",
+    "Typescript"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

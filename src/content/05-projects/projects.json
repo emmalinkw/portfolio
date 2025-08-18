@@ -1,0 +1,556 @@
+[
+  {
+    "id": "parc-central",
+    "title": {
+      "en": "Parc Central",
+      "zh": "天環"
+    },
+    "abstract": {
+      "en": "Official mall website combining a modern design with easy access to information.",
+      "zh": "打造一個既符合商場時尚明亮風格，又方便查閱商場資訊的官方網站。"
+    },
+    "coverImage": [
+      "/projects/covers/parc.png"
+    ],
+    "year": "2020",
+    "roles": [
+      "web_common"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Vue.js",
+      "MySQL",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "dh",
+    "title": {
+      "en": "Department of Health Interactive Games",
+      "zh": "衞生署互動遊戲"
+    },
+    "abstract": {
+      "en": "Educational games promoting healthy living for teenagers.",
+      "zh": "一系列與健康成長相關的互動遊戲，推廣青少年健康觀念。"
+    },
+    "coverImage": [
+      "/projects/covers/dh.png"
+    ],
+    "year": "2021",
+    "roles": [
+      "Game Development"
+    ],
+    "type": [
+      "web_game",
+      "desktop_app"
+    ],
+    "technologies": [
+      "Phaser JS",
+      "Typescript",
+      "Electron JS"
+    ]
+  },
+  {
+    "id": "mtl",
+    "title": {
+      "en": "Medical Textiles and Functional Clothing",
+      "zh": "醫用紡織品和功能性服裝"
+    },
+    "abstract": {
+      "en": "A showcase platform for the research team",
+      "zh": "為研究團隊設計並開發展示研究成果的平台。"
+    },
+    "coverImage": [
+      "/projects/covers/mtl.jpg"
+    ],
+    "year": "2024",
+    "roles": [
+      "Wordpress Customization"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Wordpress",
+      "Bricks Builder",
+      "PHP"
+    ]
+  },
+  {
+    "id": "posture_assistant",
+    "title": {
+      "en": "Posture Assistant",
+      "zh": "保姿助手"
+    },
+    "abstract": {
+      "en": "Sensor-based mobile app for posture monitoring and alerts.",
+      "zh": "透過傳感器監測姿勢並發出提示的應用程式。"
+    },
+    "coverImage": [
+      "/projects/covers/posture_assistant.png"
+    ],
+    "year": "2025",
+    "roles": [
+      "mobile",
+      "Sensor Integration"
+    ],
+    "type": [
+      "mobile_app"
+    ],
+    "technologies": [
+      "Flutter",
+      "Bluetooth Integration"
+    ]
+  },
+  {
+    "id": "elp",
+    "title": {
+      "en": "English Learning Platform",
+      "zh": "英語學習平台"
+    },
+    "abstract": {
+      "en": "Educational platform with Bluetooth sensors for posture monitoring.",
+      "zh": "配合傳感器監控坐姿的英語學習平台。"
+    },
+    "coverImage": [
+      "/projects/covers/elp.png"
+    ],
+    "year": "2022",
+    "roles": [
+      "Frontend Development",
+      "backend",
+      "Bluetooth Integration"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Phaser JS",
+      "Bluetooth Integration"
+    ]
+  },
+  {
+    "id": "ai_fitness",
+    "title": {
+      "en": "AI Personal Fitness Training",
+      "zh": "智能在家個人訓練系統"
+    },
+    "abstract": {
+      "en": "AI-powered home fitness training system for guided workouts.",
+      "zh": "利用 AI 技術輔助的在家健身訓練系統。"
+    },
+    "coverImage": [
+      "/projects/covers/ai_fitness.png"
+    ],
+    "year": "2025",
+    "roles": [
+      "mobile",
+      "backend"
+    ],
+    "type": [
+      "desktop_app"
+    ],
+    "technologies": [
+      "Flutter",
+      "Laravel",
+      "AI Integration"
+    ]
+  },
+  {
+    "id": "3dbms",
+    "title": {
+      "en": "3D Bra Pressure Reporting System",
+      "zh": "3D 胸罩壓力分析系統"
+    },
+    "abstract": {
+      "en": "3D bra pressure analysis tool with PDF export capability.",
+      "zh": "3D 胸罩壓力分析系統，能輸出 PDF 報告。"
+    },
+    "coverImage": [
+      "/projects/covers/3dbms.png"
+    ],
+    "year": "2023",
+    "roles": [
+      "Frontend Development",
+      "backend",
+      "Database Development"
+    ],
+    "type": [
+      "desktop_app"
+    ],
+    "technologies": []
+  },
+  {
+    "id": "biofeedback",
+    "title": {
+      "en": "Biofeedback",
+      "zh": "Biofeedback"
+    },
+    "abstract": {
+      "en": "Smart vest with sensors to monitor posture in real time.",
+      "zh": "配有感應裝置的矯正背心，可即時檢測姿勢。"
+    },
+    "coverImage": [
+      "/projects/covers/biofeedback.png"
+    ],
+    "year": "2021",
+    "roles": [
+      "mobile",
+      "Sensor Integration"
+    ],
+    "type": [
+      "mobile_app"
+    ],
+    "technologies": [
+      "Flutter",
+      "Bluetooth Integration"
+    ]
+  },
+  {
+    "id": "activebiotech_sensor",
+    "title": {
+      "en": "ActiveBiotech Sensor",
+      "zh": "ActiveBiotech 傳感器"
+    },
+    "abstract": {
+      "en": "Mobile app for real-time testing and debugging of sensors.",
+      "zh": "即時連接並測試傳感器的應用程式。"
+    },
+    "coverImage": [
+      "/projects/covers/abc_sensor.png"
+    ],
+    "year": "2025",
+    "roles": [
+      "mobile",
+      "Sensor Integration"
+    ],
+    "type": [
+      "mobile_app"
+    ],
+    "technologies": [
+      "Flutter",
+      "Bluetooth Integration"
+    ]
+  },
+  {
+    "id": "schroth",
+    "title": {
+      "en": "Schroth's Exercise Software",
+      "zh": "智能在家施羅特療法網站"
+    },
+    "abstract": {
+      "en": "AI-assisted Schroth therapy exercise platform for posture monitoring.",
+      "zh": "AI 輔助的施羅特療法運動輔助網站。"
+    },
+    "coverImage": [
+      "/projects/covers/schroth.png"
+    ],
+    "year": "2024",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Tailwind CSS",
+      "Vue.js"
+    ]
+  },
+  {
+    "id": "aded",
+    "title": {
+      "en": "Activewear Design and Education",
+      "zh": "理大運動服裝設計及教育研究團隊"
+    },
+    "abstract": {
+      "en": "Official website showcasing sportswear design research.",
+      "zh": "展示運動服裝設計研究成果的官方網站。"
+    },
+    "coverImage": [
+      "/projects/covers/aded.png"
+    ],
+    "year": "2024",
+    "roles": [
+      "Wordpress Customization"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Wordpress",
+      "Bricks Builder",
+      "PHP"
+    ]
+  },
+  {
+    "id": "layman",
+    "title": {
+      "en": "Layman Marketing Limited",
+      "zh": "洛鑫推廣有限公司"
+    },
+    "abstract": {
+      "en": "Corporate website update based on new design requirements.",
+      "zh": "根據最新設計更新官方網站。"
+    },
+    "coverImage": [
+      "/projects/covers/layman.png"
+    ],
+    "year": "2024",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "mushroom_go",
+    "title": {
+      "en": "Mushroom Go",
+      "zh": "搵菇易"
+    },
+    "abstract": {
+      "en": "Mobile app for mushroom discovery and documentation.",
+      "zh": "發掘與記錄菇菌類的手機應用程式。"
+    },
+    "coverImage": [
+      "/projects/covers/mushroom_go.png"
+    ],
+    "year": "2022",
+    "roles": [
+      "mobile",
+      "backend"
+    ],
+    "type": [
+      "mobile_app"
+    ],
+    "technologies": [
+      "Flutter",
+      "Laravel"
+    ]
+  },
+  {
+    "id": "originer",
+    "title": {
+      "en": "Originer",
+      "zh": "Originer"
+    },
+    "abstract": {
+      "en": "Blockchain-based text and image encryption service.",
+      "zh": "利用區塊鏈技術的文字及圖片加密服務。"
+    },
+    "coverImage": [
+      "/projects/covers/originer.png"
+    ],
+    "year": "2020",
+    "roles": [
+      "backend",
+      "Frontend Development"
+    ],
+    "type": [
+      "mobile_app",
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Blockchain Integration"
+    ]
+  },
+  {
+    "id": "pete",
+    "title": {
+      "en": "Pete's Adventure",
+      "zh": "奇異鳥 Pete 的奇妙旅程"
+    },
+    "abstract": {
+      "en": "Web-based side-scrolling platform game for promotional events.",
+      "zh": "橫向平台遊戲，用於宣傳活動。"
+    },
+    "coverImage": [
+      "/projects/covers/pete.png"
+    ],
+    "year": "",
+    "roles": [
+      "Game Development",
+      "Frontend Development"
+    ],
+    "type": [
+      "web_game"
+    ],
+    "technologies": [
+      "Phaser",
+      "Laravel"
+    ]
+  },
+  {
+    "id": "wahkeung",
+    "title": {
+      "en": "Wah Keung Exchange",
+      "zh": "華強匯款找換"
+    },
+    "abstract": {
+      "en": "Currency exchange rate display website for customers.",
+      "zh": "顯示匯率的官方網站。"
+    },
+    "coverImage": [
+      "/projects/covers/wahkeung.png"
+    ],
+    "year": "2024",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Tailwind CSS",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "foodhk",
+    "title": {
+      "en": "Hong Kong Food Carnival",
+      "zh": "香港美食嘉年華"
+    },
+    "abstract": {
+      "en": "Event website with registration and mini-games.",
+      "zh": "活動網站，包含登記與小遊戲。"
+    },
+    "coverImage": [
+      "/projects/covers/foodhk.png"
+    ],
+    "year": "2018",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "hkpbe_macau",
+    "title": {
+      "en": "Hong Kong Brand and Product Expo (Macau)",
+      "zh": "香港工展會（澳門）"
+    },
+    "abstract": {
+      "en": "Macau version of the event website with quiz and prize draw.",
+      "zh": "澳門工展會網站，包含問答與抽獎功能。"
+    },
+    "coverImage": [
+      "/projects/covers/hkpbe_macau.png"
+    ],
+    "year": "2018",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "hkbpe",
+    "title": {
+      "en": "Hong Kong Brand and Product Expo",
+      "zh": "香港工展會"
+    },
+    "abstract": {
+      "en": "Event website with online games and prize draws.",
+      "zh": "包含線上遊戲與抽獎的活動網站。"
+    },
+    "coverImage": [
+      "/projects/covers/hkbpe.png"
+    ],
+    "year": "2017",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "MySQL"
+    ]
+  },
+  {
+    "id": "connek",
+    "title": {
+      "en": "ConneK Express",
+      "zh": "ConneK Express"
+    },
+    "abstract": {
+      "en": "Cargo tracking system with QR code updates.",
+      "zh": "利用 QR code 更新貨品物流資訊的系統。"
+    },
+    "coverImage": [
+      "/projects/covers/connek.png"
+    ],
+    "year": "2020",
+    "roles": [
+      "Frontend Development",
+      "backend"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Vue.js",
+      "QR Code Integration"
+    ]
+  },
+  {
+    "id": "taipo_megamall",
+    "title": {
+      "en": "Taipo Mega Mall – Holiday Shuttle Minibus",
+      "zh": "大埔超級城 – 新田免費假日小巴"
+    },
+    "abstract": {
+      "en": "A campaign website for Taipo Mega Mall, allowing eligible customers to redeem one-way e-tickets for the holiday shuttle bus to San Tin.",
+      "zh": "為大埔超級城建立活動網站，讓合資格顧客可領取前往新田的假日小巴單程電子車票。"
+    },
+    "coverImage": [
+      "/projects/covers/taipo_megamall.png"
+    ],
+    "year": "2023",
+    "roles": [
+      "web_common"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Laravel",
+      "Vue.js",
+      "QR Code Integration"
+    ]
+  }
+]

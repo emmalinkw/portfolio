@@ -1,0 +1,24 @@
+{
+  "title": {
+    "en": "ConneK Express",
+    "zh": "ConneK Express"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "ConneK Express 是一家專注於香港本地貨運的創新平台，致力於建立覆蓋全港的自動化自營物流服務。",
+      "我們為 ConneK Express 設計了一款好用的貨物運輸系統，利用 QR code 技術來更新和追蹤貨品物流資訊，包括下單、派送時間、運費金額等各項關鍵信息。",
+      "用戶只需登入帳號，不論是店家還是客戶，都能隨時隨地追蹤單項或多項商品的運單處理狀態。即使同時集運多間商店的貨品，客戶亦可檢視詳細的貨品報表，運單條理有序，使集運過程輕鬆便捷。每次物流狀態更新都通過 QR code 完成，確保信息的準確性和即時性。"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Javascript",
+    "CSS"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

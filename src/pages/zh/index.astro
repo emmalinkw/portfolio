@@ -1,20 +1,23 @@
 ---
-import {getEntry} from "astro:content";
-import {render} from "astro:content";
+import { getEntry } from "astro:content";
+import { render } from "astro:content";
 import Card from "../../components/Card.astro";
 import MasterLayout from "../../layouts/MasterLayout.astro";
 import EmploymentHistory from "../../components/Content/EmploymentHistory.astro";
 import Technologies from "../../components/Content/Technologies.astro";
+import SelectedProjects from "../../components/Content/SelectedProjects.astro";
+import RightArrow from "../../components/Icon/RightArrow.astro";
 
 const [about] = await Promise.all([
-    getEntry('other', 'about/'+Astro.currentLocale),
+    getEntry("other", "about/" + Astro.currentLocale),
 ]);
-const {Content: About} = await render(about!);
+const { Content: About } = await render(about!);
 ---
+
 <MasterLayout>
     <Card title="嗨！">
         <div class="prose">
-            <About/>
+            <About />
         </div>
     </Card>
     <Card title="職業履歷">
@@ -22,5 +25,21 @@ const {Content: About} = await render(about!);
     </Card>
     <Card title="常用技術">
         <Technologies />
+    </Card>
+    <Card>
+        <div class="header-container flex space-between gap-xs">
+            <h3>精選專案</h3>
+            <a
+                href="/portfolio/zh/projects"
+                class="btn-view-more-right"
+                >檢視更多 <RightArrow size="14"/></a
+            >
+        </div>
+        <SelectedProjects />
+
+        <div style="height: var(--size-md);"></div>
+        <button class="btn-primary" onclick="location.href = '/portfolio/zh/projects'">
+            檢視更多 <RightArrow size="14"/>
+        </button>
     </Card>
 </MasterLayout>

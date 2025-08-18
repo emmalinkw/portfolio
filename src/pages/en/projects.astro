@@ -1,0 +1,16 @@
+---
+import MasterLayout from "../../layouts/MasterLayout.astro";
+import Card from "../../components/Card.astro";
+import AllProjects from "../../components/Content/AllProjects.astro";
+
+import type { Project } from "../../types/Project";
+const allProjects: Array<Project> = await import(
+    `../../content/05-projects/projects.json`
+).then((m) => m.default);
+
+---
+<MasterLayout title="Notable Projects">
+    <Card title="Notable Projects">
+        <AllProjects/>
+    </Card>
+</MasterLayout>

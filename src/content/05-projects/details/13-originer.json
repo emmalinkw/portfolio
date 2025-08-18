@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Originer",
+    "zh": "Originer"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "Originer係一個全新的文字及圖片加密服務，利用區塊鏈（Blockchain）技術，為上傳至Originer伺服器的內容進行加密。 ",
+      "每項加密過的資料均會記錄上傳日期及原創者，亦會永久保存於發佈平台，方便保障原創人的著作權。",
+      "用戶可以透過加密服務免除被侵權的憂慮。只需經Originer上傳或發佈原創的文字及圖片內容，系統便會自動為用戶登記版權，同時亦會實時上傳至網頁及手機應用程式，方便用戶作記錄之用，讓每個創作者都可以安心享受設計創造的樂趣。"
+    ]
+  },
+  "technologies": [
+    "Flutter",
+    "Laravel"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

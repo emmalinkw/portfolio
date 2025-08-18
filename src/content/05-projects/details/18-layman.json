@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Layman Marketing Limited",
+    "zh": "洛鑫推廣有限公司"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "洛鑫推廣有限公司（Layman Marketing Limited）係一間提供多元化市場推廣服務的公司，需要一個網站全面展示佢們的服務範疇。我們按照洛鑫提供的最新設計製作網站，喺開發過程中亦與洛鑫保持溝通，確保每個細節都符合佢們最新的願景。"
+    ]
+  },
+  "technologies": [
+    "Wordpress",
+    "Bricks Builder",
+    "PHP"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ],
+  "url":"https://www.laymanmktg.com/"
+}

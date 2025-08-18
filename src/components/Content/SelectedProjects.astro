@@ -1,0 +1,18 @@
+---
+/** To display a list of selected project. Each project is rendering as a card, clicking onto the link icon / project title will redirect to the detail page of the project.
+ * @param title Name of the section
+ * @param className CSS Class to be appended to the outermost container
+ * @param projects Array of `project`
+ */
+
+import type { Project } from "../../types/Project";
+import ProjectGrid from "../project/ProjectGrid.astro";
+
+const allProjects: Array<Project> = await import(
+    `../../content/05-projects/projects.json`
+).then((m) => m.default);
+
+const projects = allProjects.slice(0, 6);
+---
+
+<ProjectGrid projects={projects} />

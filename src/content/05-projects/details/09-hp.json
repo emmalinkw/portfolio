@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "HP Lead-generation Website",
+    "zh": "HP 推廣網頁"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "我們為 HP 建立了一個活動網站，為各類活動設置獨立頁面，旨在提升活動的參與度和客戶體驗。每個活動都有專屬頁面，根據具體活動的細節和需求進行內容調整，提供活動介紹及詳細資料。",
+      "網站整體採用了現代且簡潔的設計風格，確保訪客能毫不費力地瀏覽和查找信息。"
+    ]
+  },
+  "technologies": [
+    "Wix"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

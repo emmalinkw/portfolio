@@ -1,0 +1,24 @@
+{
+  "title": {
+    "en":"Parc Central",
+    "zh":"天環"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "天環（Parc Central）係一個位於廣州市的大型購物中心，擁有眾多店鋪、琳琅滿目的活動，以及詳盡的服務與設施資訊，因此需要一個高效平台方便訪客獲得各種資訊。",
+      "我們為天環打造了一個既符合商場時尚明亮風格，又方便查閲商場資訊的官方網站。呢個網站唔單止令訪客可以感受到天環的獨特氛圍，仲可以快捷地揾到自己需要的資訊。"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Vue.js",
+    "MySQL",
+    "Tailwind CSS"
+  ],
+  "images": [
+    "/assets/projects/01-parc_central/01.png",
+    "/assets/projects/01-parc_central/02.png"
+  ],
+  "url": "https://www.parccentral.com.hk/zh-HK"
+}

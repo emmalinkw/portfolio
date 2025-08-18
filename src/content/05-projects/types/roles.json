@@ -1,0 +1,76 @@
+{
+  "web_common": {
+    "en": [
+      "Analyse user requirements",
+      "Server development",
+      "Backend development",
+      "Frontend development",
+      "Database development"
+    ],
+    "zh": [
+      "需求分析",
+      "伺服器開發",
+      "後端開發",
+      "前端開發",
+      "資料庫開發"
+    ]
+  },
+  "frontend": {
+    "en": [
+      "Analyse user requirements",
+      "Frontend development",
+      "UI/UX implementation"
+    ],
+    "zh": [
+      "需求分析",
+      "前端開發",
+      "UI/UX 實作"
+    ]
+  },
+  "backend": {
+    "en": [
+      "Analyse user requirements",
+      "Backend development",
+      "UI/UX implementation",
+      "Database development"
+    ],
+    "zh": [
+      "需求分析",
+      "後端開發",
+      "UI/UX 實作",
+      "資料庫開發"
+    ]
+  },
+  "mobile": {
+    "en": [
+      "Analyse user requirements",
+      "Mobile application development",
+      "Backend development",
+      "Database development"
+    ],
+    "zh": [
+      "需求分析",
+      "流動應用程式開發",
+      "後端開發",
+      "資料庫開發"
+    ]
+  },
+  "web_game": {
+    "en": [
+      "Analyse game requirements",
+      "Frontend development (HTML5 / Canvas)",
+      "Game mechanics implementation",
+      "Backend / server logic",
+      "Database management",
+      "UI/UX design for games"
+    ],
+    "zh": [
+      "遊戲需求分析",
+      "前端開發（HTML5 / Canvas）",
+      "遊戲機制實作",
+      "後端 / 伺服器邏輯",
+      "資料庫管理",
+      "遊戲 UI/UX 設計"
+    ]
+  }
+}

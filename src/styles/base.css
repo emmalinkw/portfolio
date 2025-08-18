@@ -36,9 +36,10 @@
     --gray-800: #121212;
     --gray-900: #0a0a0a;
 
-    --primary: var(--primary-500);
+    --primary: var(--primary-600);
     --secondary: var(--secondary-500);
     --base: var(--gray-900);
+    --remark-dark: var(--gray-600);
     --remark: var(--gray-500);
     --remark-light: var(--gray-400);
     --muted: var(--gray-100);
@@ -50,10 +51,13 @@
     --panel-color: var(--gray-800);
 
     --link-color: var(--secondary-600);
-    --transition-duration: 0.15s;
+    --transition-duration: 0.12s;
+    
+    --border-radius: 4px;
 
     /* Size */
-    --size-xxs: 0.25rem;
+    --size-xxxs: 0.25rem;
+    --size-xxs: 0.35rem;
     --size-xs: 0.5rem;
     --size-sm: 0.75rem;
     --size-md: 1rem;
@@ -88,6 +92,7 @@
     
         --primary-bg: var(--primary-700);
 
+        --remark-dark: var(--gray-300);
         --remark: var(--gray-400);
         --remark-light: var(--gray-500);
 
@@ -97,7 +102,8 @@
 
 @media (min-width: 640px) {
     :root {
-        --size-xxs: 0.3rem;
+        --size-xxxs: 0.3rem;
+        --size-xxs: 0.45rem;
         /* 4.8px */
         --size-xs: 0.6rem;
         /* 9.6px */
@@ -116,7 +122,8 @@
 
 @media (min-width: 768px) {
     :root {
-        --size-xxs: 0.35rem;
+        --size-xxxs: 0.35rem;
+        --size-xxs: 0.5rem;
         --size-xs: 0.7rem;
         --size-sm: 1rem;
         --size-md: 1.25rem;
@@ -128,7 +135,8 @@
 
 @media (min-width: 1024px) {
     :root {
-        --size-xxs: 0.4rem;
+        --size-xxxs: 0.4rem;
+        --size-xxs: 0.6rem;
         --size-xs: 0.8rem;
         --size-sm: 1.1rem;
         --size-md: 1.375rem;
@@ -148,7 +156,8 @@
 
 @media (min-width: 1280px) {
     :root {
-        --size-xxs: 0.45rem;
+        --size-xxxs: 0.45rem;
+        --size-xxs: 0.7rem;
         --size-xs: 0.9rem;
         --size-sm: 1.25rem;
         --size-md: 1.5rem;
@@ -166,7 +175,9 @@
 
 @media (min-width: 1536px) {
     :root {
-        --size-xxs: 0.5rem;
+        --size-xxxs: 0.5rem;
+
+        --size-xxs: 0.75rem;
         /* 8px */
         --size-xs: 1rem;
         /* 16px */
@@ -191,7 +202,11 @@ body{
 
 /* Gap */
 
-.gap-xxs {
+.gap-xxxs {
+    gap: var(--size-xxxs);
+}
+
+.gap-xxxs {
     gap: var(--size-xxs);
 }
 
@@ -335,6 +350,10 @@ body{
 
 .text-sm{
     font-size: var(--text-sm);
+}
+
+.text-base{
+    font-size: var(--text-base);
 }
 
 .text-md{

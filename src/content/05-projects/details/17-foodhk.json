@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Hong Kong Food Carnival",
+    "zh": "香港美食嘉年華"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "我們連續幾年為香港美食嘉年華打造活動網站，活動網站主要功能分別為登記資料、互動遊戲及領獎。參與者只要完成登記，就可以參加互動遊戲。遊戲會根據階段而改變：",
+      "<ol><li>嘉年華開始前：參與者需要進行一個問答遊戲，答對問題就可以獲得嘉年華入場券。</li><li>嘉年華期間：參與者每日都有一次抽獎機會，只需要登入活動頁面就可以參與抽獎，贏取豐富獎品。</li></ol>"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Javascript",
+    "CSS"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

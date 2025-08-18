@@ -1,0 +1,8 @@
+{
+  "website": { "en": "Website", "zh": "網站" },
+  "web_app": { "en": "Web Application", "zh": "網頁應用程式" },
+  "web_game": {"en": "HTML5 Game", "zh": "網頁遊戲"},
+  "mobile_app": { "en": "Mobile Application", "zh": "流動應用程式" },
+  "desktop_app": { "en": "Desktop Application", "zh": "桌面應用程式" },
+  "game": { "en": "Game", "zh": "遊戲" }
+}

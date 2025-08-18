@@ -1,0 +1,24 @@
+{
+  "title": {
+    "en": "Hong Kong Brand and Product Expo",
+    "zh": "香港工展會"
+  },
+  "description": {
+    "en": [],
+    "zh": [
+      "香港工展會係一個備受期待的年度盛事，每年都有衆多市民到場參與。我們負責製作第 52 屆至第 55 屆活動網頁，提供一個平台讓市民登記並參與可獲獎的網上活動，並為工展會提供穩定的技術支持，確保活動順利進行。",
+      "活動網頁分為兩個階段：",
+      "<ol><li>工展會開始前：參加者需要喺網頁上參加問答遊戲，答啱問題就可以獲得入場券，鼓勵咗更多人參加。</li><li>工展會活動期間：參加者每日可以進入活動頁面進行一次抽獎，增加網站的回訪率，並吸引更多新。</li></ol>"
+    ]
+  },
+  "technologies": [
+    "Laravel",
+    "Javascript",
+    "CSS"
+  ],
+  "images": [
+    "/assets/projects/06-biofeedback/01.jpg",
+    "/assets/projects/06-biofeedback/02.jpg",
+    "/assets/projects/06-biofeedback/03.jpg"
+  ]
+}

@@ -3,19 +3,31 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
 import ThemeToggler from "./ThemeToggler.astro";
 
+const navItems = [{path: "projects/", en: "Notable Projects", zh: "代表作品" }];
+const currentLocale = Astro.currentLocale??'en';
+
+const base = import.meta.env.BASE_URL || '/portfolio/';
+const currentRoute = Astro.url.pathname.replace(/(en|zh)(\/)/, "").replace(/^\/portfolio\//, "");
 ---
 
 <nav class="container flex flex-row space-between p-xs px-xs-0">
-    <h1 class="text-md font-semibold">Emma Lin</h1>
+    <a href={getRelativeLocaleUrl(currentLocale)} class="base-color-link"><h1 class="text-md font-semibold">Emma Lin</h1></a>
 
     <div class="flex items-center flex-row gap-sm">
+        {navItems.map((item) => <a href={`/portfolio/${currentLocale}/${item.path}`} class={"nav-link" + (currentRoute==item.path? " active": "")}>{item[currentLocale]}</a>)}
         <div class="flex items-center flex-row gap-xs">
-            {Astro.currentLocale === "en" && <a href={getRelativeLocaleUrl("zh")}>中</a>}
-            {Astro.currentLocale === "zh" && <a href={getRelativeLocaleUrl("en")}>EN</a>}
-            
+            {
+                Astro.currentLocale === "en" && (
+                    <a href={`/portfolio/zh/${currentRoute}`}>中</a>
+                )
+            }
+            {
+                Astro.currentLocale === "zh" && (
+                    <a href={`/portfolio/en/${currentRoute}`}>EN</a>
+                )
+            }
         </div>
 
-        <ThemeToggler/>
-    
+        <ThemeToggler />
     </div>
 </nav>
