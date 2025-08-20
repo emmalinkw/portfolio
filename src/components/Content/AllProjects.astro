@@ -6,7 +6,7 @@
  */
 
 import type { Project } from "../../types/Project";
-import ProjectCard from "../project/ProjectCard.astro";
+import ProjectCard from "../Project/ProjectCard.astro";
 import type { Language } from "../../types/Language";
 import { toLanguage } from "../../utils/toLanguage";
 
@@ -21,7 +21,7 @@ const allProjects: Array<Project> = await import(
 
 ---
 
-<div class="project-container">
+<div class="project-container-full-width">
     {
         allProjects.map((project: Project) => <ProjectCard projectTypes={projectTypes} lang={lang} project={project} />)
     }

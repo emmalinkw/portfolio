@@ -1,0 +1,25 @@
+{
+  "title": {
+    "en": "ZoomPrint",
+    "zh": "ZoomPrint"
+  },
+  "description": {
+    "en": [
+      "ZoomPrint, a company offering printing and design services, aimed to enhance its customer experience through an online platform that makes it easier to design and order products. To achieve this, we developed a fully featured e-commerce site for them.",
+      "We integrated a design editor directly into the website, allowing customers to customize their own designs online. Whether it’s business cards, flyers, or other printed materials, users can create designs easily through an intuitive interface. The site also provides a wide selection of templates and design assets, enabling even customers without design experience to produce professional results."
+    ],
+    "zh": [
+      "ZoomPrint 作為一間提供印刷及設計服務嘅公司，期望透過網上平台提升客戶體驗，讓客戶可以更方便咁設計同訂購產品。因此，我哋為佢哋製作咗一個功能全面嘅網店。",
+      "我哋喺網站加入一個設計編輯器，讓客戶可以直接喺網站上客制佢哋嘅設計。無論係名片、傳單定係其他印刷品，客戶都可以通過簡單易用嘅介面自由設計。另外，網站亦提供咗多種範本同設計素材，方便唔熟悉設計嘅客戶創作出專業作品。"
+    ]
+  },
+  "technologies": [
+    "Wordpress",
+    "CSS"
+  ],
+  "images": [
+    "/assets/projects/23-zoomprint/01.jpg",
+    "/assets/projects/23-zoomprint/02.jpg",
+    "/assets/projects/23-zoomprint/03.jpg"
+  ]
+}

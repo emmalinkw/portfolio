@@ -4,5 +4,6 @@
   "web_game": {"en": "HTML5 Game", "zh": "網頁遊戲"},
   "mobile_app": { "en": "Mobile Application", "zh": "流動應用程式" },
   "desktop_app": { "en": "Desktop Application", "zh": "桌面應用程式" },
-  "game": { "en": "Game", "zh": "遊戲" }
+  "game": { "en": "Game", "zh": "遊戲" },
+  "hardware": { "en": "Hardware Development", "zh": "硬體開發" }
 }

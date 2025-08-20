@@ -9,6 +9,7 @@
     --color-project-mobile_app: #2BAE66;
     --color-project-desktop_app: #7A90FB;
     --color-project-game: #F27781;
+    --color-project-hardware: #5A6D7C;
     /** Default (fallback) **/
     --color-project-default: #6A6562;
 
@@ -21,6 +22,7 @@
         --color-project-mobile_app: #44D17D;
         --color-project-desktop_app: #9AA7FB;
         --color-project-game: #FF8892;
+        --color-project-hardware: #7A8F9F;
         /** Default (fallback) **/
         --color-project-default: #8C8683;
     }
@@ -66,7 +68,7 @@ html {
         transition: var(--transition-duration) all;
         color: var(--link-color);
 
-        svg{
+        svg {
             margin-bottom: 2px;
         }
 
@@ -165,7 +167,7 @@ h2 {
     @media (min-width: 992px) {
         max-width: 960px;
     }
-    
+
     @media (min-width: 1200px) {
         max-width: 1140px;
     }
@@ -175,7 +177,7 @@ h2 {
     }
 }
 
-.btn-primary{
+.btn-primary {
     padding: var(--size-xs) var(--size-sm);
     background-color: var(--primary);
     color: var(--inverted);
@@ -184,13 +186,13 @@ h2 {
     margin: 0 auto;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
         filter: brightness(1.2);
     }
 }
 
-.nav-link{
-    &.active{
+.nav-link {
+    &.active {
         font-weight: bold;
         color: var(--primary);
         border-bottom: 1px solid;
@@ -221,7 +223,7 @@ h2 {
     }
 }
 
-.btn-view-more-right{
+.btn-view-more-right {
     display: flex;
     align-items: center;
     gap: var(--size-xxxs);
@@ -458,7 +460,7 @@ h2 {
 }
 
 
-.project-container {
+.project-container{
     display: grid;
     gap: var(--size-sm);
 
@@ -482,12 +484,31 @@ h2 {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .project-card {
-        display: flex;
-        flex-direction: column;
-        gap: var(--size-xxs);
-        line-height: 1.5;
+}
+
+.project-container-full-width{
+    display: grid;
+    gap: var(--size-sm);
+
+    @media (min-width: 576px) {
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 1400px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-xxs);
+    line-height: 1.5;
+
 
     .cover-container:hover {
         filter: none;
@@ -496,6 +517,8 @@ h2 {
     .cover {
         object-fit: cover;
         width: 100%;
+        aspect-ratio: 1.5;
+        height: auto;
     }
 
     .project-type {
