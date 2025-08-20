@@ -1,0 +1,26 @@
+{
+  "title": {
+    "en": "Limepage",
+    "zh": "青頁"
+  },
+  "description": {
+    "en": [
+      "Limepage serves as the company’s official website, showcasing its services and portfolio to enhance brand image and strengthen client trust. The site combines a modern design with user-friendly functionality, allowing visitors to quickly grasp the company’s expertise and past projects.",
+      "During development, I handled both frontend and backend implementation, partial layout and graphic design, as well as content organizating and writing, ensuring the website is both visually appealing and practical."
+    ],
+    "zh": [
+      "青頁（Limepage）是公司官方網站，用於展示公司的服務與作品集，旨在提升品牌形象並加強客戶信任。網站設計注重現代感與易用性，讓訪客能快速了解公司的專業領域和過往項目。",
+      "在開發過程中，我負責前後端實作、部分版面與圖像設計，內容整理及撰寫，確保整體網站既美觀又實用。"
+    ]
+  },
+  "technologies": [
+    "Wordpress",
+    "Bricks Builder",
+    "CSS"
+  ],
+  "images": [
+    "/assets/projects/24-limepage/01.jpg",
+    "/assets/projects/24-limepage/02.jpg",
+    "/assets/projects/24-limepage/03.jpg"
+  ]
+}
