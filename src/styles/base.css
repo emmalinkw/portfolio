@@ -78,11 +78,15 @@
 
     --inverted: white;
 
+    --background-color: var(--primary-50);
+    --background-color-rbg: 231, 237, 248;
+
     &.dark {
         --base: var(--gray-50);
         --inverted: var(--gray-900);
 
-        background-color: var(--gray-900);
+        --background-color: var(--gray-900);
+        --background-color-rgb: 10, 10, 10;
 
         --panel-background: var(--gray-800);
         --panel-border: var(--gray-700);

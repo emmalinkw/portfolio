@@ -10,7 +10,7 @@ const base = import.meta.env.BASE_URL || '/portfolio/';
 const currentRoute = Astro.url.pathname.replace(/(en|zh)(\/)/, "").replace(/^\/portfolio\//, "");
 ---
 
-<nav class="container flex flex-row space-between p-xs px-xs-0">
+<nav class="container p-xs px-xs-0 navigation">
     <a href={getRelativeLocaleUrl(currentLocale)} class="base-color-link"><h1 class="text-md font-semibold">Emma Lin</h1></a>
 
     <div class="flex items-center flex-row gap-sm">
