@@ -2,7 +2,7 @@
 import { getEntry } from "astro:content";
 import { render } from "astro:content";
 
-import MasterLayout from "../layouts/MasterLayout.astro";
+import NamecardIncludedLayout from "../layouts/NamecardIncludedLayout.astro";
 import Card from "../components/Card.astro";
 import EmploymentHistory from "../components/Content/EmploymentHistory.astro";
 import Technologies from "../components/Content/Technologies.astro";
@@ -15,7 +15,7 @@ const [about] = await Promise.all([
 const { Content: About } = await render(about!);
 ---
 
-<MasterLayout title="">
+<NamecardIncludedLayout>
     <Card title="About me">
         <About />
     </Card>
@@ -39,4 +39,4 @@ const { Content: About } = await render(about!);
             View More <RightArrow size="14"/>
         </button>
     </Card>
-</MasterLayout>
+</NamecardIncludedLayout>

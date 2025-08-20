@@ -1,19 +1,19 @@
 ---
 import {getEntry} from "astro:content";
 import {render} from "astro:content";
-import MasterLayout from "../../layouts/MasterLayout.astro";
 import Card from "../../components/Card.astro";
 import EmploymentHistory from "../../components/Content/EmploymentHistory.astro";
 import Technologies from "../../components/Content/Technologies.astro";
 import SelectedProjects from "../../components/Content/SelectedProjects.astro";
 import RightArrow from "../../components/Icon/RightArrow.astro";
+import NamecardIncludedLayout from "../../layouts/NamecardIncludedLayout.astro";
 
 const [about] = await Promise.all([
     getEntry('other', 'about/'+Astro.currentLocale),
 ]);
 const {Content: About} = await render(about!);
 ---
-<MasterLayout>
+<NamecardIncludedLayout>
     <Card title="Hi!">
         <div class="prose">
             <About/>
@@ -39,4 +39,4 @@ const {Content: About} = await render(about!);
             View More <RightArrow size="14"/>
         </button>
     </Card>
-</MasterLayout>
+</NamecardIncludedLayout>

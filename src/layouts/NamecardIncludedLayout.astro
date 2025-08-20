@@ -1,0 +1,22 @@
+---
+import MasterLayout from "./MasterLayout.astro";
+import QuickInfo from "../components/Content/QuickInfo.astro";
+const content =
+    Astro.currentLocale == "en"
+        ? { name: "Emma Lin K.W." }
+        : { name: "連家慧 (Emma Lin)" };
+
+interface Props {
+    title?: string;
+}
+const { title } = Astro.props;
+
+---
+<MasterLayout title={title}>
+    <div class="flex items-start gap-md">
+        <QuickInfo name={content.name} />
+        <div class="flex flex-col gap-md">
+            <slot />
+        </div>
+    </div>
+</MasterLayout>

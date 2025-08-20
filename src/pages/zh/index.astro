@@ -2,7 +2,7 @@
 import { getEntry } from "astro:content";
 import { render } from "astro:content";
 import Card from "../../components/Card.astro";
-import MasterLayout from "../../layouts/MasterLayout.astro";
+import NamecardIncludedLayout from "../../layouts/NamecardIncludedLayout.astro";
 import EmploymentHistory from "../../components/Content/EmploymentHistory.astro";
 import Technologies from "../../components/Content/Technologies.astro";
 import SelectedProjects from "../../components/Content/SelectedProjects.astro";
@@ -14,7 +14,7 @@ const [about] = await Promise.all([
 const { Content: About } = await render(about!);
 ---
 
-<MasterLayout>
+<NamecardIncludedLayout>
     <Card title="嗨！">
         <div class="prose">
             <About />
@@ -42,4 +42,4 @@ const { Content: About } = await render(about!);
             檢視更多 <RightArrow size="14"/>
         </button>
     </Card>
-</MasterLayout>
+</NamecardIncludedLayout>
