@@ -511,7 +511,7 @@
       "backend"
     ],
     "type": [
-      "web_game"
+      "website"
     ],
     "technologies": [
       "Laravel",
@@ -539,7 +539,7 @@
       "backend"
     ],
     "type": [
-      "web_game"
+      "website"
     ],
     "technologies": [
       "Laravel",
