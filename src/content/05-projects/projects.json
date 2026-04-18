@@ -2,6 +2,7 @@
   {
     "id": 24,
     "slug": "limepage",
+    "url":"https://www.limepage.com.hk/",
     "title": {
       "en": "Limepage",
       "zh": "青頁"
@@ -57,6 +58,7 @@
   {
     "id": 1,
     "slug": "parc_central",
+    "url":"https://www.parccentral.com.hk/",
     "title": {
       "en": "Parc Central",
       "zh": "天環"
@@ -84,6 +86,7 @@
   {
     "id": 10,
     "slug": "mtl",
+    "url": "https://www.mtl-sft.com/",
     "title": {
       "en": "Medical Textiles and Functional Clothing",
       "zh": "醫用紡織品和功能性服裝"
@@ -329,6 +332,7 @@
   {
     "id": 15,
     "slug": "aded",
+    "url": "https://www.aded-sft.com/",
     "title": {
       "en": "Activewear Design and Education",
       "zh": "理大運動服裝設計及教育研究團隊"
@@ -356,6 +360,7 @@
   {
     "id": 19,
     "slug": "layman",
+    "url": "https://www.laymanmktg.com/",
     "title": {
       "en": "Layman Marketing Limited",
       "zh": "洛鑫推廣有限公司"

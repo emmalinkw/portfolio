@@ -27,8 +27,13 @@ const url = "#";
             width="300"
             height="200"
         />
-    <h3 class="title">{project.title[lang]}</h3>
-
+        {project.url != null ? 
+    <a href={project.url} target="_blank" class="title-row base-color-link">
+        <h3 class="title">{project.title[lang]}</h3>
+        <LinkArrow />
+    </a>
+    :
+    <h3 class="title">{project.title[lang]}</h3>}
     <!-- Hide detail page redirection
     <a href={url} target="_blank" class="cover-container">
         <Image
