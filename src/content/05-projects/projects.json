@@ -28,6 +28,34 @@
     ]
   },
   {
+    "id": 25,
+    "slug": "store-polyu-fashion",
+    "url":"https://www.store-polyufashion.com/",
+    "title": {
+      "en": "STORE By PolyU Fashion",
+      "zh": "STORE By PolyU Fashion"
+    },
+    "abstract": {
+      "en": "An official website and online shop for PolyU Fashion, integrating product and content management, student product sales, and data migration to enhance branding and user experience.",
+      "zh": "一個結合官方網站與線上商店的平台，整合產品與內容管理，支持學生作品銷售，支援資料遷移，用以提升品牌形象與使用者體驗。"
+    },
+    "coverImage": [
+      "/projects/covers/store_polyu.png"
+    ],
+    "year": "2025",
+    "roles": [
+      "web_common"
+    ],
+    "type": [
+      "website"
+    ],
+    "technologies": [
+      "Wordpress",
+      "Bricks Builder",
+      "CSS"
+    ]
+  },
+  {
     "id": 5,
     "slug": "dh",
     "title": {
